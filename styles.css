@@ -76,3 +76,46 @@ body {
   background-color: lightslategrey;
   text-align: center;
 }
+
+.info-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-bar .info-bar-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.info-bar .info-panel {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info-bar .info-panel .panel {
+  width: 120px;
+  height: 200px;
+}
+
+.info-bar .box {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #3882F6;
+  border-radius: 12px;
+}
+
+.info-bar .info-panel p {
+  margin: 0;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #606266;
+  text-align: center;
+}
+
+.quote-bar {
+  background-color: #E5E7EB;
+  height: 280px;
+}
