@@ -137,3 +137,42 @@ body {
   font-weight: 800;
   padding-right: 20px;
 }
+
+.action-call {
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 0px;
+  margin: 80px auto;
+  width: 800px;
+  background-color: #3881f6f2;
+  border-radius: 8px;
+}
+
+.action-call p {
+  margin: 0;
+  color: #F9FAF8;
+}
+
+.action-call .call {
+  font-weight: 700;
+}
+
+.action-call .signup {
+  font-size: 12px;
+  color: #E5E7EB;
+}
+
+.action-call button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 4px;
+}
+
+.copyright-notice {
+  height: 80px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 32px;
+}
