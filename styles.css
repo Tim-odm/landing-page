@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
 
@@ -117,5 +117,23 @@ body {
 
 .quote-bar {
   background-color: #E5E7EB;
-  height: 280px;
+  padding: 100px 240px;
+}
+
+.quote-bar p {
+  color: #1F2937;
+}
+
+.quote-bar .quote {
+  font-size: 28px;
+  font-weight: 300;
+  text-align: left;
+  margin: 0;
+}
+
+.quote-bar .reference {
+  text-align: end;
+  margin: 0;
+  font-weight: 800;
+  padding-right: 20px;
 }
